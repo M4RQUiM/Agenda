@@ -1,5 +1,5 @@
 <?php
-include('../../conexao/conexao.php');
+include('../../conexão/conexao.php');
 session_start();
 
 $qryLista = mysqli_query($conecta, "SELECT * FROM contato WHERE usuario_idUsuario = ".$_SESSION['idUsuario']."");    
