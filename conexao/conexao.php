@@ -2,7 +2,7 @@
 ini_set('display_errors', true);
 error_reporting(E_ALL);
 
-//Conexão on-line
+//Conexão on-linea
 $hostname = "fdb23.awardspace.net";
 $database = "3153485_princeso";
 $username = "3153485_princeso";
